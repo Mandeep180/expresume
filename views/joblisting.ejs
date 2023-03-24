@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <style>
+        .title{
+            margin-top: 100px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .content-container{
+            width: 90%;
+            margin: auto;
+            margin-top: 100px;
+            border: 1px solid black;
+            display: flex;
+            
+        }
+
+        /*-----------content container end-----------------*/
+
+
+        .left-container{
+            flex: 1;
+            border: 1px solid black;
+        }
+
+        .menu-container{
+            width: 80%;
+            margin: auto;
+            border: 1px solid red;
+        }
+
+        .menu-item{
+            border: 1px solid black;
+            border-radius: 10px;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 1px 5px #dfd1d1;
+        }
+
+        .journal{
+            background-color: rgb(63, 145, 232);
+            color: snow;
+        }
+
+        /*-----------left container end-----------------*/
+
+
+        .job-listing-container{
+            flex: 3;
+            border: 1px solid black;
+        }
+
+        .job-listing-content{
+            width: 80%;
+            margin: auto;
+            height: 100%;
+            border: 1px solid black;
+            border-radius: 10px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 1px 5px #dfd1d1;
+        }
+
+        
+
+
+
+
+        /*-----------job listing container end-----------------*/
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="title">Worklog</h1>
+        <div class="content-container">
+            <div class="left-container">
+                <div class="menu-container">
+                    <div class="menu-item">Personal Info</div>
+                    <div class="menu-item journal">Journal</div>
+                    <div class="menu-item">Kanban Board</div>
+                    <div class="menu-item">Job Listing</div>
+                    <div class="menu-item">Resume</div>
+                </div>
+            </div>
+            <div class="job-listing-container">
+                <div class="job-listing-content">
+                    <div>job listing</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
