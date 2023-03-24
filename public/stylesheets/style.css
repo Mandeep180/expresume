@@ -6,3 +6,92 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+/*  */
+/* Style for Dashboard */
+/*  */
+
+.dash-task {
+  border: 1px solid;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.dash-task:hover {
+  background-color: gray;
+  color: white;
+}
+
+.dash-content, .dash-step {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dash-step-heading {
+  font-size: xx-large;
+}
+
+.dash-step-subheading {
+  font-size: x-large;
+}
+
+.dash-step{
+  border-left: 5px solid;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: rgba(245, 244, 244, 0.825);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.dash-step-table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+  table-layout: fixed;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.dash-step-table td{
+  padding-bottom: 5px;
+}
+
+.dash-button-box {
+  position: relative;
+}
+
+.dash-step button {
+  position: absolute;
+  right: 5%;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: white;
+  color: rgb(28, 21, 96);
+}
+
+.dash-step button:hover {
+  color: white;
+  background-color: gray;
+}
+
+.dash-resume-box {
+  border: 1px solid;
+  text-align: center;
+}
