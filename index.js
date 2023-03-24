@@ -27,7 +27,7 @@ app.get('/contact', (req, res) => {
     res.render('worklog.ejs', {title: 'worklog'})
   });
   app.get('/dashboard', (req, res) => {
-    res.render('dashboard.ejs', {title: 'dashboard'})
+    res.render('dashboard.ejs', {title: 'Dashboard'})
   });
 
 
